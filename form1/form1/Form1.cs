@@ -33,7 +33,7 @@ namespace form1
       string numero2 = this.textBox2.Text;
       Numero n1 = new Numero(numero1);
       Numero n2 = new Numero(numero2);
-      double resultado = Numero.SumarNumeros(n1, n2);
+      double resultado = n1.SumarNumero(n2);
       this.textBox3.Text = resultado.ToString();
     }
   }

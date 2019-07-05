@@ -44,5 +44,11 @@ namespace form1
       retorno = n1.GetNumber() + n2.GetNumber();
       return retorno;
     }
+    public double SumarNumero(Numero n2)
+    {
+      double retorno;
+      retorno = this.numero + n2.GetNumber();
+      return retorno;
+    }
   }
 }
